@@ -31,10 +31,10 @@ function App() {
   return (
         <>
         <div className='grid grid-cols-1 m-5 items-center '>
-          <h1 className='text-2xl font-bold flex justify-center'>Para Generator</h1>
+          <h1 className='text-4xl font-bold flex justify-center'>Para Generator</h1>
         <div className='mt-2'>
            <input type="text" placeholder='Enter Number of Words' value={text} onChange={(e)=> setText(e.target.value)} 
-                  className='w-180 p-2 m-5' />
+                  className='w-300 p-2 m-5' />
            <button className='bg-black text-white  rounded-lg  p-2' 
             onClick={generateParagraph}>Generate</button>
         </div>
